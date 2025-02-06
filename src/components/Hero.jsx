@@ -3,7 +3,8 @@ import profilePic from "../assets/me.jpg";
 import { delay, motion } from "framer-motion";
 import { HiDownload } from "react-icons/hi";
 import { useEffect } from "react";
-import AutoTyping, { BlinkCursor } from "react-auto-typing";
+import Typewriter from 'typewriter-effect';
+
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -26,18 +27,13 @@ const Hero = () => {
               animate="visible"
               className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
             >
-              <AutoTyping
-                active // <boolean>
-                textRef="Dipesh Sojitra" // <string>
-                writeSpeed={500} // <number>
-                deleteSpeed={200} // <number>
-                delayToWrite={1500} // <number>
-                delayToDelete={2000} // <number>
-              />
-              <BlinkCursor
-                active // <boolean>
-                blinkSpeed={500} // <number>
-              />
+              <Typewriter
+  options={{
+    strings: 'Dipesh Sojitra',
+    autoStart: true,
+    loop: true,
+  }}
+/>
             </motion.h1>
             <motion.span
               variants={container(0.5)}
