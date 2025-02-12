@@ -1,7 +1,6 @@
-import project1 from "../assets/projects/project-1.png";
-import project2 from "../assets/projects/project-2.png";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.png";
+import project1 from "../assets/projects/project1.png";
+import project2 from "../assets/projects/project2.png";
+
 
 export const HERO_CONTENT = `Hi, I'm Dipesh!
 Full-stack developer aspired to build dynamic, scalable, and user-centric web applications. Skilled in modern technologies such as React, Next.js, Node.js, and databases such as MySQL and MongoDB, I help develop innovative solutions to drive business growth and deliver seamless experiences for users.
@@ -26,40 +25,24 @@ export const ABOUT_TEXT = `I'm a dedicated and versatile aspiring full-stack dev
 //   }
 // ];
 
-// export const PROJECTS = [
-//   {
-//     title: "Podcastr",
-//     image: project1,
-//     description:
-//       "A podcast platform that boosts user engagement through personalized authentication, AI-generated audio and thumbnails, and an improved user experience with enhanced form management and interactive features like a sticky podcast player.",
-//     technologies: ["Next.js", "Typescript", "Tailwind CSS", "Open-AI", "Convex"],
-//     link: "https://www.podcastrr.me/",
-//   },
-//   {
-//     title: "SaaS Landing Page",
-//     image: project2,
-//     description:
-//       "Engaging and responsive SaaS landing page with smooth animations, fast performance, and a sleek, professional design.",
-//     technologies: ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
-//     link: "https://saas-landing-page-ebon.vercel.app/"
-//   },
-//   {
-//     title: "Portfolio Website",
-//     image: project3,
-//     description:
-//       "A personal portfolio website showcasing projects, skills, and contact information.",
-//     technologies: ["React", "Tailwind CSS", "Framer Motion"],
-//     link: "https://samarthkapoor.vercel.app/"
-//   },
-//   {
-//     title: "GSAP Landing Page",
-//     image: project4,
-//     description:
-//       "Aesthetic Landing Page with hover-over effect using GSAP.",
-//     technologies: ["HTML", "CSS", "GSAP"],
-//     link: "https://gsap-landing-nine.vercel.app/"
-//   }
-// ];
+export const PROJECTS = [
+  {
+    "title": "Random Feedback",
+    "image": project1,
+    "description": "A simple and intuitive feedback collection platform that allows users to share opinions anonymously, making it easy to gather insights for improvements.",
+    "technologies": ["Next.js", "Tailwind CSS", "ShadCN","NextAuth.js"],
+    "link": "https://randomfeedback.vercel.app/"
+  },
+  {
+    "title": "ImageKit Reel",
+    "image": project2,
+    "description": "A media library built with ImageKit, offering optimized image and video storage with seamless retrieval and sharing features.",
+    "technologies": ["Next.js", "Tailwind CSS", "ImageKit","NextAuth.js"],
+    "link": "https://imagekit-reel.vercel.app/"
+  }
+];
+
+
 
 export const CONTACT = {
   address: "Ahmedabad,Gujarat",
